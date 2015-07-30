@@ -20,4 +20,8 @@ public class ToDoManager {
     public void removePosition(int position) {
         todos.remove(position);
     }
+
+    public ToDo findByPosition(int position) {
+        return todos.get(position);
+    }
 }

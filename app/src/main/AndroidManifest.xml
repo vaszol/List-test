@@ -3,7 +3,7 @@
     package="ru.vaszol.vas.list_test" >
 
     <application
-        android:name="ToDoApp"
+        android:name=".ToDoApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,6 +16,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ToDoDitailsActivity"
+            android:label="@string/title_activity_to_do_ditails" >
         </activity>
     </application>
 
